@@ -3,6 +3,7 @@ services:
     name: metabase
     env: docker
     repo: https://github.com/render-examples/metabase.git # optional
+    region: frankfurt
     plan: standard # ensure that metabase has at least 2GB of RAM (defaults to starter)
     autoDeploy: false
     envVars:
