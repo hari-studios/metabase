@@ -14,4 +14,5 @@ services:
 databases:
   - name: elephant
     databaseName: metabasedb
+    region: frankfurt
     ipAllowList: [] # only allow internal connections
